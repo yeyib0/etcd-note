@@ -9,7 +9,7 @@ etcd学习笔记
 - 日志复制
 - 集群配置变更
 
-### raft安全性，可靠性
+#### raft安全性，可靠性
 - 选举安全
 - leader仅追加
 - 日志匹配
@@ -20,6 +20,13 @@ etcd学习笔记
 - MVCC
 - WAL
 - B+树
+- 租约
+
 ## 客户端交互
-- watch
-- auth
+- KVServer
+- WatchServer
+- LeaseServer
+- ClusterServer
+- AuthServer
+- MaintenanceServer
+- HealthServer
